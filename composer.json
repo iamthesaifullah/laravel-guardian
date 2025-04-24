@@ -1,0 +1,24 @@
+{
+    "name": "iamthesaifullah/laravel-guardian",
+    "description": "A plug-and-play Laravel security booster to harden your app.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Saifullah",
+            "homepage": "https://iamthesaifullah.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Saif\\Guardian\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saif\\Guardian\\GuardianServiceProvider"
+            ]
+        }
+    }
+}
